@@ -1,35 +1,24 @@
+div{
+    text-align:center;
+    color:yellowgreen;
+}
 
-#first{
-    display:-webkit-box;
-    -webkit-box-orient:horizontal;
-    -webkit-box-pack:center;
-  
+body{
+    background-image:url(blackish.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100%
 }
-div>div{
-    
-    padding:100;
-    width:33%;
-    box-sizing:border-box
+h1,h3{
+    color:white
 }
-h1,#sec{
-    background:rgb(10,200,10);
-    height:80px;
-    margin:0;
-    text-indent:40;
-    color:aquamarine
+
+
+a:hover{
+    color:yellow;
+    font-size: 20
 }
-@media(max-width:800px){
-    #first{
-    display:-webkit-box;
-    -webkit-box-orient:vertical;
-    -webkit-box-pack:center;
-        
-  
-}
-    div>div{
-        background:yellow;
-        width:100%;
-        padding:11
-        
-    }
+a:visited{
+    color:yellow
 }
